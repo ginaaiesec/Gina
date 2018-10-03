@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #FFB40B;
+  color: #fff;
+  height: 85px;
+}
+
+.logo {
+  color: #fff;
+font-family:  "Sensa Brush Fill Demo";
+  float: left;
+  font-size: 40px;
+  padding: 20px 50px;
+}
+
+.logo-list {
+  float: left;
+	color: #fff;
+	  font-size: 20px;
+
+}
+
+.logo-list li {
+  float: left;
+  padding: 20px 30px;
+font-family: "Lato Thin Italic";
+}
+
+.aboutme{
+padding: 100px 80px;
+}
+
+.aboutme-title h1{
+font-size: 120px;
+background-color: #E8CB97;
+color:#fff
+}
+
+.aboutme-title h2{
+	font-size: 25px;
+	color: slategrey;
+	float: right;
+	padding-right: 80px;
+}
+
+.aboutme-content{
+	margin-top: 260px;
+	padding: 10px 50px;
+	color: #FFA300;
+}
+
+.portfolio{
+	padding: 10px 80px;
+	margin-top: 30px;
+}
+
+.portfolio-photo{
+float: left; 
+margin-bottom: 100px;
+
+}
+
+.portfolio-photo li {
+	float: left;
+	padding: 15px
+}
+
+.contact {
+	margin-top: 150px;
+	padding: 100px 120px;
+    
+}
+
+.contact-title{
+	font-size: 35px;
+	color: #FFA300;
+	padding: 50px;
+	margin-top: 100px;
+}
+
+.contact-content{
+	font-size: 20px;
+	padding: 50px;
+	color: #998A3D;
+
+}
+/* ここのリンクの色をEmailみたいな色に設定したいですけど、それができなかった*/
+.contact-content li{
+	float: left;
+	color: #998A3D;
+	padding: 0px 30px;
+}
+
+.footer {
+  background-color: #E8CDA7;
+  color: #fff;
+  height: 50px;
+}
+
+.footer h6{
+	font-size: 16px;
+    padding: 20px 550px 
+}
